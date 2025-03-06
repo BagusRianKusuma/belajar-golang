@@ -7,7 +7,7 @@ import (
 )
 
 type Response struct {
-	Message string `json : "message"`
+	Message string `json:"message"`
 }
 
 func AgeCheck(w http.ResponseWriter, r *http.Request) {
